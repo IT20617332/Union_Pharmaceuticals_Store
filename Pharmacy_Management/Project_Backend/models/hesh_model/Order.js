@@ -53,7 +53,6 @@ const orderSchema = new Schema({
         type : String,
         required : true
     },
-
     itemquantity1 : {
         type : String,
         required : true

@@ -1,0 +1,153 @@
+body, html{
+	background-color: #cccccc;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size:cover;
+	width:100%;
+    min-height: 100%;
+	
+}
+
+.hr1{
+	border-top: 2px solid black;
+	margin-top: -2px;
+}
+
+/* .logo{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+} */
+
+.logopa{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 7px !important;
+}
+
+
+/* Profile picture */
+.profile{
+	width: 90px;
+	height: 60px;
+	float: right;
+	border-radius: 90%;
+	cursor: pointer;
+}
+
+li a:hover{
+	background-color: rgb(57, 33, 160);
+	
+}
+
+#navbarNav{
+  background-color: #605d63;
+  margin-top: 70px;
+}
+
+
+.nav .search button{
+	float: right;
+	padding: 8px 8px;
+	margin-top: 7px;
+	margin-right: 13px;
+	background: #605d63;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.nav .search button:hover {
+  background: #9629e7;
+}
+
+/* Footer*/
+.footer-container{
+	background-color: #212329;
+	padding-bottom: 2rem 0 4rem 0;
+	margin-top: 5rem;
+}
+
+.footer{
+	width: 100%;
+	height: 40vh;
+	background-color: #212329;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.footer-heading{
+	margin-right: 6rem;
+}
+
+.footer-heading h2{
+	margin-bottom: 1rem;
+}
+
+.footer-heading a{
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 0;
+}
+
+.footer-heading a:hover{
+	color:#9629e7;
+	transition: 0.3s ease-out;
+}
+
+.footer-heading.footer-1 a{
+	background: #494848;
+	width: 40px;
+	height: 41px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.footer-heading.footer-1 a i{
+	font-size: 20px;
+	color: #fff;
+	padding: 11px 13px;
+}
+
+.footer-heading.footer-1 a i:hover{
+	color:#9629e7;
+	transition: 0.3s ease-out;
+}
+
+.bottom-text{
+	text-align: center;
+	background:#000;
+	line-height: 20px;
+	color: white;
+	margin-top:-10px;
+}	
+
+/* aligments for different resolutions */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.option1{
+		margin-bottom:30px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.option2{
+		margin-bottom:30px;
+	}
+	.footer-container{
+		padding: 50px 0;
+	}
+}
+
+.map{
+	border-radius:15px;
+	border: 2px solid purple;
+}

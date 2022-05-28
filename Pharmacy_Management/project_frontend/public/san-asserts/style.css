@@ -1,0 +1,162 @@
+body, html{
+	/* background-color: #cccccc;
+	background-image: url("bg3.png"); */
+	background-repeat: no-repeat;
+	background-size:cover;
+	width:100%;
+    min-height: 100%;
+	
+}
+
+.hr1{
+	border-top: 2px solid black;
+	margin-top: -2px;
+}
+
+
+.logo{
+	display: inline-block;
+	width: 155px;
+	height: 140px;
+	/* border: 2px solid black; */
+	/* border-radius: 5px; */
+}
+
+.logBtn{
+	float: right;
+	position: relative;
+}
+
+
+/* Footer*/
+.footer-container{
+	background-color: #212329;
+	padding-bottom: 2rem 0 4rem 0;
+	
+}
+
+.footer{
+	width: 100%;
+	height: 40vh;
+	background-color: #212329;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.footer-heading{
+	margin-right: 6rem;
+}
+
+.footer-heading h2{
+	margin-bottom: 1rem;
+}
+
+.footer-heading a{
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 0;
+}
+
+.footer-heading a:hover{
+	color:#9629e7;
+	transition: 0.3s ease-out;
+}
+
+.footer-heading.footer-1 a{
+	background: #494848;
+	width: 40px;
+	height: 41px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.footer-heading.footer-1 a i{
+	font-size: 20px;
+	color: #fff;
+	padding: 11px 13px;
+}
+
+.footer-heading.footer-1 a i:hover{
+	color:#9629e7;
+	transition: 0.3s ease-out;
+}
+
+.bottom-text{
+	text-align: center;
+	background:#000;
+	line-height: 20px;
+	color: white;
+	margin-top:-10px;
+}	
+
+/* aligments for different resolutions */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.option1{
+		margin-bottom:30px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.option2{
+		margin-bottom:30px;
+	}
+	.footer-container{
+		padding: 50px 0;
+	}
+}
+
+.map{
+	border-radius:15px;
+	border: 2px solid purple;
+}
+
+.btn1{
+	top: 50%;
+	left: 50%;
+	padding-bottom: 50px;
+}
+
+ul.btns{
+	padding:0px;
+	margin:0px;
+	display:flex;
+}
+
+ul.btns li{
+	list-style: none;
+	border: 2px solid transparent;
+	font-size: 35px;
+	font-weight: bold;
+	margin: 160px;
+	border-radius: 15px;
+}
+
+ul.btns li a{
+	text-decoration: none;
+	padding: 15px 35px;
+	display: block;
+	text-align: center;
+	border: 2px solid #9629e7;
+	border-radius: 15px;
+	transition: all 0.5s ease-in-out;
+}
+
+ul.btns li a:hover{
+	box-shadow: 0px 0px 10px rgb(147,28,246,0.5), 0px 0px 5px rgb(147,28,246,1);
+	background-color: transparent;
+}
+
+.p0 {
+	padding-left:12px;
+	
+}
+
+.p1 {
+	padding-left:18px;
+	
+}
+
+

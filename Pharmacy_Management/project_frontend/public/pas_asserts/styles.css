@@ -1,0 +1,106 @@
+body{
+	background-color: rgb(0, 0, 0);
+	background-image: url("../pas_asserts/1.jpg");
+	background-repeat: no-repeat;
+}
+.nav-link {
+    display: block;
+    padding: .9rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color: #fff;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-weight: 200 !important;
+    font-size: 15px;
+}
+
+h1,h3{
+	color: rgb(255, 0, 0);
+}
+
+.logop{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 7px !important;
+}
+
+.navbar {
+   
+    padding-top: .01rem;
+     padding-bottom: 0px !important;
+}
+
+
+/* Footer*/
+.footer-containerp{
+	background-color: #212329;
+	padding-bottom: 2rem 0 4rem 0;
+	margin-top: 5rem;
+}
+
+.footerp{
+	width: 100%;
+	height: 40vh;
+	background-color: #212329;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.footer-head{
+	margin-right: 6rem;
+}
+
+.footer-head h2{
+	margin-bottom: 1rem;
+}
+
+.footer-head a{
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 0;
+}
+
+.footer-head a:hover{
+	color:#9629e7;
+	transition: 0.3s ease-out;
+}
+
+.footer-head.footer-5 a{
+	background: #494848;
+	width: 40px;
+	height: 41px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.footer-head.footer-5 a i{
+	font-size: 20px;
+	color: #fff;
+	padding: 11px 13px;
+}
+
+.footer-head.footer-5 a i:hover{
+	color:#9629e7;
+	transition: 0.3s ease-out;
+}
+
+.bottom-textp{
+	text-align: center;
+	background:#000;
+	line-height: 20px;
+	color: white;
+	margin-top:-10px;
+}
+
+.mapp{
+	border-radius:15px;
+	border: 2px solid purple;
+	background: url("../pas_asserts/1.jpg");
+}
